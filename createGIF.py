@@ -18,7 +18,7 @@ images[0].save(
     "output.gif",
     save_all=True,
     append_images=images[1:],
-    duration=200,  # milliseconds per frame
+    duration=400,  # milliseconds per frame
     loop=0         # loop forever
 )
 
