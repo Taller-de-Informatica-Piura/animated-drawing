@@ -61,6 +61,7 @@ duration = 100    # muy rápido
 duration = 400    # velocidad normal
 duration = 1000   # lento
 
+---
 
 ## ▶️ Paso 3: Ejecutar el programa
 
