@@ -60,6 +60,7 @@ Este valor controla **cuánto tiempo se muestra cada imagen**.
 duration = 100    # muy rápido
 duration = 400    # velocidad normal
 duration = 1000   # lento
+```
 
 ---
 
