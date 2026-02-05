@@ -11,9 +11,51 @@ cada imagen es un cuadro de la animación, y Python las une en un solo archivo `
 
 El proyecto debe tener la siguiente estructura de carpetas:
 
+animated_drawing/
+├── createGIF.py
+├── GIF_input/
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   └── ...
+└── python_installer_windows/
+
 
 ---
 
+## 🐍 Requisitos: instalar Python
+
+Para que este programa funcione, es necesario tener **Python** instalado en el sistema.
+
+### Opción 1: Usar el instalador incluido
+
+Dentro del proyecto encontrarás la carpeta: python_installer_windows
+
+
+Ahí hay un instalador de Python para Windows que puedes usar directamente.
+
+### Opción 2: Descargar desde la web oficial
+
+También puedes descargar Python desde:
+
+👉 https://www.python.org
+
+### ⚠️ Importante durante la instalación
+
+- Marca la opción **"Add Python to PATH"** antes de instalar
+- Esto es necesario para poder ejecutar Python desde la terminal
+
+### 📦 Instalar la librería Pillow
+
+Este proyecto usa la librería **Pillow** para manejar imágenes.
+
+Después de instalar Python, abre una terminal y ejecuta: pip install pillow
+
+
+Si el comando funciona sin errores, ya tienes todo listo 👍
+
+
+---
 ## 🖌️ Paso 1: Crear los dibujos
 
 1. Abre **Paint** (u otro programa similar).
